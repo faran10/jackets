@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: maroon;
+}
+.nav-item {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50px;
+    margin-top: 12px;
+}
+.nav-item i {
+    color: black;
+}
+.nav-logo img {
+    height: 90px;
+    width: 170px;
+}
+.maindiv {
+    width: 102%;
+    height: 800px;
+    position: absolute;
+    top: 53%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    background-image: url(./imgs/menback.pg.jpg);
+    background-size: 100% 100%;
+    animation:slider 9s infinite linear;
+}
+@keyframes slider {
+    0% {background-image: url(./imgs/menback.pg.jpg);}
+
+    20% {background-image: url(./imgs/back2.jpg); }
+
+    50%{background-image: url(./imgs/back.jpg);}
+    
+    75% {background-image: url(./imgs/girlback.jpg); }
+}
+/* Men */
+
+#men h1 {
+    color: black;
+    margin-top: 1000px;
+    font-weight: bold;
+    margin-left: 800px;
+    text-decoration: underline;
+    font-size: 65px;
+}
+.cards {
+    background-color: maroon;
+    width: 99%;
+    margin-top: 150px;
+    margin-left: 20px;
+    display: flex;
+    padding: 20px 147px;
+    gap: 220px;
+
+}
+.card-title {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;;
+}
+.card-text {
+    font-size: 25px;
+    font-weight: bold;
+}
+.cards .card a {
+    width: 355px;
+}
+.container {
+   width: 30%;
+   margin-top: 200px;
+}
+/* Women */
+
+.women {
+ Color: black;
+ font-weight: bold;
+ text-decoration: underline;
+ font-size: 60px;
+ margin-top: 200px;
+ margin-left: 750px;
+}
+.carousel-inner {
+    width: 90%;
+    margin-top: 150px;
+    border-radius: 20px;
+    height: 600px;
+    margin-left: 100px;
+}
+.kid {
+    Color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 60px;
+    margin-top: 200px;
+ margin-left: 800px;
+}
+.links
+{
+    width: 20%;
+    height: 70px;
+}
+.card {
+    margin-top: 70px;
+}
+.card-header {
+    font-size: 30px;
+}
+.card-body button {
+    width: 100%;
+    margin-top: 10px;
+}
+.form-group label {
+   font-size: 25px;
+}
+h3 {
+    Color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 60px;
+    margin-top: 30px;
+}
+.end {
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 30px;
+}
+.sign {
+    margin-left: 700px;
+    width: 27%;
+    margin-bottom: 30px;
+}
